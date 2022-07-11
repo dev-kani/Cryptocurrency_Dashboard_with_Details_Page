@@ -2,7 +2,7 @@ import React from 'react'
 
 const CoinItem = (props) => {
 
-    const { id, market_cap_rank, image, symbol, current_price, price_change_percentage_24h, total_volume, market_cap } = props.coin
+    const { market_cap_rank, image, symbol, current_price, price_change_percentage_24h, total_volume, market_cap } = props.coin
 
     return (
         <div className='coin-row'>
